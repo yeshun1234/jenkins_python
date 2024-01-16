@@ -22,7 +22,7 @@ podTemplate(containers: [
             sh 'ls -la jenkins_python'
             sh 'python jenkins_python/cal.py'
           }
-          stage(' Installing packages')
+          stage(' Installing package')
           {
             sh 'pwd'
             sh 'ls -la'
